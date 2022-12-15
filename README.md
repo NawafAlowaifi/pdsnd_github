@@ -20,3 +20,6 @@ project created by nawaf alowaifi
 
 ### Course rating
 10/10
+
+### intrested in taking more courses ?
+yes
