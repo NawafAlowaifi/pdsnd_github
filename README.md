@@ -18,3 +18,5 @@ washington.csv
 credits to udacity 
 project created by nawaf alowaifi
 
+### Course rating
+10/10
