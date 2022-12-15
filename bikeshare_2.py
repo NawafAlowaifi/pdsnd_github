@@ -21,12 +21,12 @@ def get_filters():
 #       cname=input('Choose a city)
     cname=''
     while cname.lower() not in CITY_DATA.keys():
-        cname=input('Choose a city \n')
+        cname=input('Choose a city please \n')
         if cname in CITY_DATA.keys():
             city=CITY_DATA[cname]
             
         else:
-            print('Check your input')
+            print('Check your input please!')
                   
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -35,12 +35,12 @@ def get_filters():
     monthset=['all','january','february','march','april','may','june']
     while usermonth.lower() not in monthset:
         
-        usermonth=input('Choose a month \n')
+        usermonth=input('Choose a month please \n')
         if usermonth.lower() in monthset :
             month=usermonth
             break
         else:
-            print('Check your input')
+            print('Check your input please!')
                            
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -54,7 +54,7 @@ def get_filters():
             day=userday
             break
         else:
-            print('Check your input')
+            print('Check your input please!')
 
     print('-'*40)
     return city, month, day
