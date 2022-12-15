@@ -40,7 +40,7 @@ def get_filters():
             month=usermonth
             break
         else:
-            print('Check your input')
+            print('Check your input please')
                            
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
@@ -54,7 +54,7 @@ def get_filters():
             day=userday
             break
         else:
-            print('Check your input')
+            print('Check your input please')
 
     print('-'*40)
     return city, month, day
